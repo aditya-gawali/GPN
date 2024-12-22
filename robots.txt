@@ -1,9 +1,0 @@
-User-agent: Googlebot
-Allow: /
-Disallow: /admin/
-
-User-agent: *
-Allow: /
-Disallow: /admin/
-
-Sitemap: https://gpnashik.ac.in/sitemap.xml
