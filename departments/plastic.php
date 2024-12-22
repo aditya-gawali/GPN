@@ -2,7 +2,7 @@
 // error_reporting(0);
 include '../admin/conn.php';
 
-$dept = $conn->query("SELECT * FROM staff_admin WHERE dept = 'PS'");
+$dept = $conn->query("SELECT * FROM staff_admin WHERE dept = 'poly'");
 $dept_data = $dept->fetch(PDO::FETCH_OBJ);
 
 ?>

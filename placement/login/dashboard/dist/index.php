@@ -182,7 +182,7 @@ if (isset($_POST["submit"])) {
     if (isset($_POST['logout'])) {
 
         session_destroy();
-        header("location: /placement/placement.php");
+        header("location: /gpn/placement/placement.php");
     }
     ob_flush();
 
